@@ -10,7 +10,7 @@ jobs:
       uses: ./
       with:
         myInput: 'Gino'
-    name: output the memory
+    - name: output the memory
        run:|
          echo ${{ steps.hello.outputs.memory }}	   
 
